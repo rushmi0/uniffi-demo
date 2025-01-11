@@ -1,6 +1,4 @@
 [bindings.kotlin]
 package_name = "org.uniffi.untitled"
 cdylib_name = "untitled"
-
-[bindings.kotlin.external_packages]
-my_external_crate = "com.fromrust.external"
+android_cleaner = true

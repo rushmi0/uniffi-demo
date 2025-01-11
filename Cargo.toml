@@ -11,6 +11,8 @@ name = "untitled"
 name = "uniffi-bindgen"
 path = "uniffi-bindgen.rs"
 
+[features]
+uniffi-cli = ["uniffi/cli"]
 
 [dependencies]
 uniffi = { version = "=0.28.0", features = ["cli"] }

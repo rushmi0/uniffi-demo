@@ -5,7 +5,7 @@ edition = "2021"
 
 [lib]
 crate-type = ["cdylib"]
-name = "demo"
+name = "untitled"
 
 [[bin]]
 name = "uniffi-bindgen"

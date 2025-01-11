@@ -1,3 +1,6 @@
 [bindings.kotlin]
-package_name = "com.fromrust"
-cdylib_name = "onffi"
+package_name = "org.uniffi.untitled"
+cdylib_name = "untitled"
+
+[bindings.kotlin.external_packages]
+my_external_crate = "com.fromrust.external"
